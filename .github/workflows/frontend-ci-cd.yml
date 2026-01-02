@@ -3,7 +3,7 @@ name: React Frontend CI/CD with Artifact
 on:
   push:
     branches:
-      - dev
+      - master
 
 jobs:
   build:
