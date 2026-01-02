@@ -1,0 +1,31 @@
+project_id = "tglwtxbjwvggikdvahap"
+
+[functions.admin-user-management]
+verify_jwt = true
+
+[functions.impersonate-affiliate]
+verify_jwt = true
+
+[functions.create-admin]
+verify_jwt = true
+
+[functions.calculate-commissions]
+verify_jwt = true
+
+[functions.forgot-password]
+verify_jwt = false
+
+[functions.send-test-email]
+verify_jwt = true
+
+[functions.bulk-setup-affiliates]
+verify_jwt = true
+
+[functions.admin-set-password]
+verify_jwt = true
+
+[functions.save-integration-secret]
+verify_jwt = true
+
+[functions.update-affiliate-phones]
+verify_jwt = false
